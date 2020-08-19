@@ -13,6 +13,7 @@ header {
     border-radius: 25px;
     font-weight: bold;
     font-size: 40px;
+    color: white;
 }
 
 h1 {
@@ -23,9 +24,10 @@ h1 {
 #input {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#input-style {
+#text-input {
     font-size: 25px;
     font-family: "Nixie One";
     color: white;
@@ -35,12 +37,21 @@ h1 {
     padding: 10px;
 }
 
-#input-button {
+#text-input::placeholder {
+    color: white;
+}
+
+#button-input {
     font-size: 25px;
     font-family: "Nixie One";
     color: white;
     border-radius: 5px;
     border: none;
-    background-color: rgb(33, 157, 189);
+    background-color: rgb(62, 213, 251);
     padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 5px;
 }

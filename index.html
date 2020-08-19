@@ -13,9 +13,15 @@
     <h1>Hello Lisa-Lou, what's on your list today ?</h1>
 
     <div id="input">
-        <input id="input-style" type="text" value="Write a task here">
-        <input id="input-button" type="submit" value="ADD">
+        <input id="text-input" type="text" placeholder="Write a task here">
+        <input id="button-input" type="submit" onclick="onClickAdd()" value="ADD">
     </div>
+
+    <ul id="myTodo">
+        <li id="item-1">
+            <input type="checkbox" name="item-1"><label>Dishes</label>
+        </li>
+    </ul>
 
 </body>
 </html>
